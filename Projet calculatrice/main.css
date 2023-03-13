@@ -1,0 +1,33 @@
+.calculatrice {
+	margin: 50px auto;
+	width: 250px;
+	background-color: black;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.afficheur {
+	background-color: white;
+	padding: 5px;
+	margin-bottom: 5px;
+	text-align: right;
+	border-radius: 5px;
+}
+.boutons {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 5px;
+}
+
+button {
+	background-color: white;
+	border: none;
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: white;
+}
